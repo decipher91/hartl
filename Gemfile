@@ -23,6 +23,22 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
+#bootstrap
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'sass-rails', '>= 3.2'
+gem 'autoprefixer-rails'
+
+#devise
+gem 'devise', '~> 3.3.0'
+
+#rspec
+gem 'rspec', '~> 3.1.0'
+
+group :test do
+  gem 'selenium-webdriver', '2.35.1'
+  gem 'capybara', '2.1.0'
+end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
